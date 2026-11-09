@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="1490" viewBox="0 0 1200 1490" role="img"
+     aria-labelledby="title desc">
+  <title id="title">Komorebi Study Hub</title>
+  <desc id="desc">A dark-themed study hub with six clickable subject cards: Maths, Science, Geography, History, English and Scratch.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#171717"/><stop offset="1" stop-color="#101010"/>
+    </linearGradient>
+    <linearGradient id="math" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1d4ed8"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
+    <linearGradient id="science" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#065f46"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <linearGradient id="geo" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0e7490"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+    <linearGradient id="history" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#92400e"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+    <linearGradient id="english" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5b21b6"/><stop offset="1" stop-color="#c4b5fd"/></linearGradient>
+    <linearGradient id="scratch" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c2410c"/><stop offset="1" stop-color="#fb923c"/></linearGradient>
+    <style>
+      .heading{font:700 46px Arial,sans-serif;fill:#fff}
+      .subject{font:700 30px Arial,sans-serif;fill:#fff}
+      .button{fill:#4caf50}
+      .buttonText{font:700 22px Arial,sans-serif;fill:#fff}
+      .card{fill:#1e1e1e;stroke:#303030;stroke-width:2}
+      .symbol{font:700 112px Arial,sans-serif;fill:#fff;text-anchor:middle}
+      .small{fill:#fff;opacity:.12}
+      a{cursor:pointer}
+      a:hover .button{fill:#45a049}
+      a:focus .card{stroke:#fff;stroke-width:4}
+    </style>
+  </defs>
+  <rect width="1200" height="1490" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="110" fill="#1f1f1f"/>
+  <text x="600" y="72" class="heading" text-anchor="middle">🌿 Komorebi</text>
+
+  <!-- Maths -->
+  <a xlink:href="https://cdn.jsdelivr.net/gh/harrinorris13-blip/Olibfjdhd/YouTube.html" target="_blank">
+    <rect class="card" x="35" y="140" width="550" height="420" rx="16"/>
+    <rect x="55" y="160" width="510" height="250" rx="14" fill="url(#math)"/>
+    <circle class="small" cx="480" cy="205" r="90"/><circle class="small" cx="115" cy="390" r="100"/>
+    <text x="310" y="300" class="symbol">∑</text>
+    <text x="310" y="380" font="700 38px Arial" fill="#fff" text-anchor="middle">Maths</text>
+    <text x="310" y="455" class="subject" text-anchor="middle">Maths</text>
+    <rect class="button" x="185" y="475" width="250" height="65" rx="8"/>
+    <text x="310" y="517" class="buttonText" text-anchor="middle">Open Maths</text>
+  </a>
+
+  <!-- Science -->
+  <a xlink:href="https://cdn.jsdelivr.net/gh/Bobwastaked/ugs-singlefile/AASINGLEFILE.html" target="_blank">
+    <rect class="card" x="615" y="140" width="550" height="420" rx="16"/>
+    <rect x="635" y="160" width="510" height="250" rx="14" fill="url(#science)"/>
+    <circle class="small" cx="1060" cy="205" r="90"/><circle class="small" cx="695" cy="390" r="100"/>
+    <text x="890" y="300" class="symbol">⚗</text>
+    <text x="890" y="380" font="700 38px Arial" fill="#fff" text-anchor="middle">Science</text>
+    <text x="890" y="455" class="subject" text-anchor="middle">Science</text>
+    <rect class="button" x="765" y="475" width="250" height="65" rx="8"/>
+    <text x="890" y="517" class="buttonText" text-anchor="middle">Open Science</text>
+  </a>
+
+  <!-- Geography -->
+  <a xlink:href="https://cdn.jsdelivr.net/gh/harrinorris13-blip/snake-cdn/snake.html" target="_blank">
+    <rect class="card" x="35" y="585" width="550" height="420" rx="16"/>
+    <rect x="55" y="605" width="510" height="250" rx="14" fill="url(#geo)"/>
+    <circle class="small" cx="480" cy="650" r="90"/><circle class="small" cx="115" cy="835" r="100"/>
+    <text x="310" y="755" class="symbol">🌍</text>
+    <text x="310" y="825" font="700 38px Arial" fill="#fff" text-anchor="middle">Geography</text>
+    <text x="310" y="900" class="subject" text-anchor="middle">Geography</text>
+    <rect class="button" x="185" y="920" width="250" height="65" rx="8"/>
+    <text x="310" y="962" class="buttonText" text-anchor="middle">Open Geography</text>
+  </a>
+
+  <!-- History -->
+  <a xlink:href="https://cdn.jsdelivr.net/gh/harrinorris13-blip/my-html-cdn/flappy.html" target="_blank">
+    <rect class="card" x="615" y="585" width="550" height="420" rx="16"/>
+    <rect x="635" y="605" width="510" height="250" rx="14" fill="url(#history)"/>
+    <circle class="small" cx="1060" cy="650" r="90"/><circle class="small" cx="695" cy="835" r="100"/>
+    <text x="890" y="755" class="symbol">🏛</text>
+    <text x="890" y="825" font="700 38px Arial" fill="#fff" text-anchor="middle">History</text>
+    <text x="890" y="900" class="subject" text-anchor="middle">History</text>
+    <rect class="button" x="765" y="920" width="250" height="65" rx="8"/>
+    <text x="890" y="962" class="buttonText" text-anchor="middle">Open History</text>
+  </a>
+
+  <!-- English and Scratch are shown in the source HTML as the fifth and sixth cards.
+       A compact strip below keeps all six links visible in this SVG layout. -->
+  <a xlink:href="https://cdn.jsdelivr.net/gh/harrinorris13-blip/sakura/sakura.html" target="_blank">
+    <rect class="card" x="35" y="1030" width="550" height="420" rx="16"/>
+    <rect x="55" y="1050" width="510" height="250" rx="14" fill="url(#english)"/>
+    <circle class="small" cx="480" cy="1095" r="90"/><circle class="small" cx="115" cy="1280" r="100"/>
+    <text x="310" y="1200" class="symbol">Aa</text>
+    <text x="310" y="1280" font="700 38px Arial" fill="#fff" text-anchor="middle">English</text>
+    <text x="310" y="1355" class="subject" text-anchor="middle">English</text>
+    <rect class="button" x="185" y="1375" width="250" height="65" rx="8"/>
+    <text x="310" y="1417" class="buttonText" text-anchor="middle">Open English</text>
+  </a>
+  <a xlink:href="https://machinelearningforkids.co.uk/scratch/" target="_blank">
+    <rect class="card" x="615" y="1030" width="550" height="420" rx="16"/>
+    <rect x="635" y="1050" width="510" height="250" rx="14" fill="url(#scratch)"/>
+    <circle class="small" cx="1060" cy="1095" r="90"/><circle class="small" cx="695" cy="1280" r="100"/>
+    <text x="890" y="1200" class="symbol">💻</text>
+    <text x="890" y="1280" font="700 38px Arial" fill="#fff" text-anchor="middle">Scratch</text>
+    <text x="890" y="1355" class="subject" text-anchor="middle">Scratch</text>
+    <rect class="button" x="765" y="1375" width="250" height="65" rx="8"/>
+    <text x="890" y="1417" class="buttonText" text-anchor="middle">Open Scratch</text>
+  </a>
+</svg>
